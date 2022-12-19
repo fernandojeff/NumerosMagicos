@@ -1,0 +1,28 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeros Mágicos</title>
+    <link rel="stylesheet" href="magic.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Números Mágicos</legend>
+        <p>Esse site serve para criar uma tabela com os números pares e impares até o número que você irá digitar.</p>
+        <form action="magic.php" method="post">
+            <label for="num">Digite o número:</label>
+            <input type="number" name="num">
+            <br> <br>
+            <input type="hidden" name="op" value="nada">
+            <input type="radio" name="op" value="par"> Números Pares
+            <br>
+            <input type="radio" name="op" value="impar">Números Impares
+            <br> <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </fieldset>
+    <a href="../index.html"><button class="redbutton">Voltar para página inicial</button></a>
+    
+</body>
+</html>
